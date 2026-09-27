@@ -1,4 +1,4 @@
-# Manushya V1 🛸
+# Manushya V1 
 
 **Manushya V1** is an open-source, Wi-Fi-controlled micro-quadcopter built from the ground up using an ESP32 microcontroller, an MPU6050 6-DOF IMU, and coreless DC motors driven by MOSFET switches. It incorporates real-time attitude estimation via sensor fusion, dual-axis PID control loops, and an integrated Wi-Fi Access Point accepting low-latency UDP flight commands from any smartphone controller app.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Standalone ESP32 Access Point:** Broadcasts its own private Wi-Fi network (`ESP32_Drone`) — no external router needed.
 - **Low-Latency UDP Communication:** Real-time parsing of incoming throttle, roll, pitch, and yaw commands over UDP port `8888`.
@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠️ Hardware & Components
+##  Hardware & Components
 
 | Component | Description / Specification |
 | :--- | :--- |
@@ -31,7 +31,7 @@
 
 ---
 
-## 📌 Wiring & Pinout Reference
+##  Wiring & Pinout Reference
 
 | Peripheral | ESP32 GPIO | Description |
 | :--- | :--- | :--- |
@@ -44,7 +44,7 @@
 
 ---
 
-## 💻 Software Prerequisites & Installation
+##  Software Prerequisites & Installation
 
 1. Install [Arduino IDE](https://www.arduino.cc/en/software) (version 2.0+ recommended).
 2. Add ESP32 board support via **Tools > Board > Boards Manager**:
@@ -58,7 +58,7 @@
 
 ---
 
-## 🕹️ Flight & Controller Configuration
+##  Flight & Controller Configuration
 
 1. **Power Up:** Connect the 1S LiPo battery. Place the drone **completely flat and still** on the floor for 3 seconds while the calibration routine computes gyro/accel offsets.
 2. **Connect Phone to Drone:**
@@ -74,7 +74,7 @@
 
 ---
 
-## 🛡️ Safety Notes
+##  Safety Notes
 
 - Always remove propellers when testing motor directions or uploading firmware on the bench.
 - Ensure the center of gravity (CoG) is centered relative to all 4 motors for stable hovering.
@@ -82,6 +82,6 @@
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
